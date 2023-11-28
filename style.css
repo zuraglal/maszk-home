@@ -108,7 +108,18 @@ ul {
   background-color: black;
 }
 
-ul li {
+header ul li {
+    float: right;
+    text-decoration: none;
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+footer ul li {
+    display: inline;
     float: right;
     text-decoration: none;
     text-align: center;
