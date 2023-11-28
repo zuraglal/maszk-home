@@ -189,7 +189,7 @@ nav a:hover{
     background-image: url('media/bg-gold.png');
 }*/
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 1000px) {
   ul li, nav, nav img {float: none;}
   nav img {
   display: block;
