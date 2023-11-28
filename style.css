@@ -22,7 +22,6 @@ h2{
     text-decoration: none;
     text-align: center;
     color: #eddc98;
-	text-decoration: none;
     font-family: 'Oswald', sans-serif;
     text-transform: uppercase;
     font-weight: 600;
@@ -338,85 +337,6 @@ font-family: 'Crimson Text', serif;
 font-family: 'Croissant One', cursive;
 */
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=Croissant+One&display=swap');
-
-h1{
-    text-decoration: none;
-    text-align: center;
-    text-shadow: 3px 3px 3px #ababab;
-    color: white;
-    font-family: 'Oswald', sans-serif;
-    text-transform: uppercase;
-    font-size:30px;
-    padding-top: 3%;
-    margin: 0;
-}
-
-h2{
-    text-decoration: none;
-    text-align: center;
-    color: #eddc98;
-	text-decoration: none;
-    font-family: 'Oswald', sans-serif;
-    text-transform: uppercase;
-    font-weight: 600;
-    font-size:30px;
-    line-height: 150%;
-}
-
-h3{
-    text-decoration: none;
-    text-align: center;
-    color: white;
-    font-family: 'Nunito', serif;
-    font-weight: 600;
-    font-size:20px;
-    line-height: 150%;
-}
-
-h3 a{
-    color: white;
-    font-style: italic;
-}
-
-h3 a:hover{
-    color: black;
-}
-
-h4{
-    text-decoration: none;
-    text-align: left;
-    color: black;
-    font-family: 'Nunito', serif;
-    text-transform: uppercase;
-    font-weight: 800;
-    font-size: 18px; /*2vw;*/
-}
-
-h4 a{
-    color: black;
-    font-style: italic;
-}
-
-h5{
-    text-decoration: none;
-    text-align: left;
-    color: black;
-    font-family: 'Nunito', serif;
-    font-weight: 500;
-    font-size: 16px; /*1.8vw;*/
-    line-height: 150%;
-}
-
-h5 a{
-    color: black;
-    font-style: italic;
-}
-
-
-body {
-    background-color: rgb(231, 189, 98);
-    margin:0;
-}
 
 img.logo {
 	width: 5vw;
