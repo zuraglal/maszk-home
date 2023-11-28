@@ -207,6 +207,16 @@ table.center {
    margin: 20 auto;
 }
 
+th {
+    text-decoration: none;
+    text-align: center;
+    color: black;
+    font-family: 'Nunito', serif;
+    text-transform: uppercase;
+    font-weight: 800;
+    font-size: 18px; /*2vw;*/
+}
+
 td {
     text-decoration: none;
     color: black;
@@ -217,6 +227,9 @@ td {
     width: 50%;
 }
 
+td.right {
+    text-align: right;
+}
 tr:nth-child(even){background-color: transparent}
 
 
