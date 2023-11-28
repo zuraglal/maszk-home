@@ -104,7 +104,6 @@ img.logo {
   
   nav {
     float: none;
-    flex-flow:column; /*IDE SZENDVICSMENÜ KELL*/
   }
 }
 
