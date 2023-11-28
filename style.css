@@ -191,7 +191,11 @@ nav a:hover{
 
 @media screen and (max-width: 800px) {
   ul li, nav, nav img {float: none;}
-  nav img {text-align: center;}
+  nav img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;}
 }
 
 .fa{
