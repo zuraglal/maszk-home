@@ -86,7 +86,7 @@ body {
 
 img.logo {
 	width: 5vw;
-	float:left;
+	float: left;
 }
 
 header{
@@ -154,6 +154,11 @@ nav{
     font-weight: 400;
     font-size: 20px;/*1.5vw;
     line-height: 20px;*/
+}
+
+nav img {
+	width: 5vw;
+	float: left;
 }
 
 /*nav a{
