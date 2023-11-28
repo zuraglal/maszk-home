@@ -101,7 +101,7 @@ ul {
   background-color: black;
 }
 
-header ul li {
+header ul li, body ul li {
     float: right;
     text-decoration: none;
     text-align: center;
@@ -123,6 +123,14 @@ footer ul li {
 }
 
 ul li a {
+  display: block;
+  color: white;
+  text-decoration: none;
+  text-align: center;
+  padding: 14px 16px;
+}
+
+footer ul li a {
   display: block;
   color: white;
   text-decoration: none;
