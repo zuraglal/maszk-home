@@ -313,10 +313,6 @@ div.menu a:hover{
     background-image: url('media/bg-gold.png');
 }
 
-footer img{
-    width:10%;
-}
-
 div.social-media-footer{
     width:100%;
     display:flex;
@@ -446,8 +442,7 @@ div.menu a:hover{
     background-image: url('media/bg-gold.png');
 }
 
-footer img{
-    width:10%;
+footer nav img{
     float: right;
 }
 
