@@ -196,6 +196,7 @@ nav{
 	overflow: hidden;
 	padding: 20px 10px;
 	background-color: black;
+	 float: left;
     /*display:flex;
     background-color: black;
     margin-top:-10%;
