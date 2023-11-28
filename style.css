@@ -242,7 +242,7 @@ footer td img {
     text-align: center;
 }
 
-td {
+header td, body td {
     text-decoration: none;
     color: black;
     font-family: 'Nunito', serif;
