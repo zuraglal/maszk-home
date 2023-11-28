@@ -228,9 +228,21 @@ td {
     width: 50%;
 }
 
+td a {
+    text-decoration: none;
+    color: black;
+    font-style: italic;
+    font-family: 'Nunito', serif;
+    font-weight: 500;
+    font-size: 16px; /*1.8vw;*/
+    line-height: 150%;
+    width: 50%;
+}
+
 td.right {
     text-align: right;
 }
+
 tr:nth-child(even){background-color: transparent}
 
 
