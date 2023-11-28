@@ -161,18 +161,44 @@ header{
 .header-contact{
 	float: left;
 }
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: black;
+}
+
+ul li {float: right;}
+
+ul li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+ul li a:hover {
+    background-clip: text;
+	-webkit-background-clip: text;
+    color: transparent;
+    background-image: url('media/bg-gold.png');
+}
+
 nav{
-	float: right;
+	overflow: hidden;
+	padding: 20px 10px;
+	background-color: black;
     /*display:flex;
     background-color: black;
     margin-top:-10%;
     padding-left: 21%;
-   
+    float: right;
     display:flex;
 
-	overflow: hidden;
-	padding: 20px 10px;
-	background-color: black;
+	
     text-decoration: none;
     font-family: 'Oswald', sans-serif;
     text-transform: uppercase;
