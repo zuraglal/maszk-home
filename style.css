@@ -208,6 +208,15 @@ table.center {
    margin: 0 auto;
 }
 
+td {
+    text-decoration: none;
+    color: black;
+    font-family: 'Nunito', serif;
+    font-weight: 500;
+    font-size: 16px; /*1.8vw;*/
+    line-height: 150%;
+}
+
 tr:nth-child(even){background-color: transparent}
 
 
