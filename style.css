@@ -183,6 +183,7 @@ nav{
 }
 
 nav a{
+  float: left;
   color: white;
   text-align: center;
   padding: 15px;
@@ -325,6 +326,37 @@ font-family: 'Croissant One', cursive;
 */
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=Croissant+One&display=swap');
 
+img.logo {
+	width: 5vw;
+	float:left;
+}
+
+@media screen and (max-width: 500px) {
+  nav a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+  
+  nav {
+    float: none;
+    flex-flow:column; /*IDE SZENDVICSMENÜ KELL*/
+  }
+}
+
+header{
+	overflow: hidden;
+	padding: 20px 10px;
+	background-color: black;
+    /*position:relative;
+	width:100%;
+    display:flex;
+    flex-flow: row;
+    justify-content: center;
+    align-items: center;
+	*/
+}
+
 .header-contact{
 	float: left;
 }
@@ -368,12 +400,24 @@ nav a:hover{
 	color: #0f4b3b;
 }
 
+footer{
+    width:100%;
+    display:flex;
+    flex-flow: row;
+    background-color: black;
+    justify-content: center;
+    align-items: center;
+}
 
 div.menu a:hover{
     background-clip: text;
 	-webkit-background-clip: text;
     color: transparent;
     background-image: url('media/bg-gold.png');
+}
+
+footer img{
+    width:10%;
 }
 
 div.social-media-footer{
