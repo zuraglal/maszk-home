@@ -227,6 +227,7 @@ td {
     font-size: 16px; /*1.8vw;*/
     line-height: 150%;
     width: 50%;
+    vertical-align: top;
 }
 
 td a {
@@ -238,6 +239,7 @@ td a {
     font-size: 16px; /*1.8vw;*/
     line-height: 150%;
     width: 50%;
+    vertical-align: top;
 }
 
 td.right {
