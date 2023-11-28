@@ -112,7 +112,7 @@ ul li {
     font-family: 'Oswald', sans-serif;
     text-transform: uppercase;
     font-weight: 400;
-    font-size: 3vw;
+    font-size: 20px;
 }
 
 ul li a {
@@ -152,7 +152,7 @@ nav{
 }
 
 nav img {
-	width: 15vw;
+	width: 120px;/*150vw*/
 	float: left;
 }
 
