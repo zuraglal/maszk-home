@@ -261,6 +261,7 @@ footer td {
     font-size: 16px; /*1.8vw;*/
     line-height: 150%;
     vertical-align: top;
+    width: auto;
 }
 
 footer td.center {
