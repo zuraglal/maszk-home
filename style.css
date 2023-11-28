@@ -197,6 +197,22 @@ nav a:hover{
   width: 50%;}
 }
 
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  width: 100%;
+  border: 1px solid #ddd;
+}
+
+th {
+  text-align: center;
+  padding: 8px;
+}
+
+tr:nth-child(even){background-color: #f2f2f2}
+
+
 .fa{
 	padding: 1vw;
 	font-size: 3.4vw;
