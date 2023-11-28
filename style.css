@@ -443,6 +443,7 @@ div.menu a:hover{
 }
 
 footer nav img{
+    width: 50%;
     float: right;
 }
 
