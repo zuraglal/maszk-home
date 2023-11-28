@@ -162,12 +162,14 @@ header{
 	float: left;
 }
 nav{
+	float: right;
     /*display:flex;
     background-color: black;
     margin-top:-10%;
     padding-left: 21%;
-    float: right;
-    display:flex;*/
+   
+    display:flex;
+
 	overflow: hidden;
 	padding: 20px 10px;
 	background-color: black;
@@ -175,8 +177,8 @@ nav{
     font-family: 'Oswald', sans-serif;
     text-transform: uppercase;
     font-weight: 400;
-    font-size: 20px;/*1.5vw;*/
-    line-height: 20px;
+    font-size: 20px;/*1.5vw;
+    line-height: 20px;*/
 }
 
 nav a{
