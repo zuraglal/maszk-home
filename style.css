@@ -144,14 +144,24 @@ ul {
   background-color: black;
 }
 
-ul li {float: right;}
+ul li {
+    float: right;
+    text-decoration: none;
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 20px;/*1.5vw;*/
+    line-height: 150%;
+    padding:2%;
+}
 
 ul li a {
   display: block;
   color: white;
+  text-decoration: none;
   text-align: center;
   padding: 14px 16px;
-  text-decoration: none;
 }
 
 ul li a:hover {
@@ -162,10 +172,10 @@ ul li a:hover {
 }
 
 nav{
-	overflow: hidden;
-	padding: 20px 10px;
-	background-color: black;
-	 float: left;
+  overflow: hidden;
+  padding: 20px 10px;
+  background-color: black;
+  float: left;
     /*display:flex;
     background-color: black;
     margin-top:-10%;
