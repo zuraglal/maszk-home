@@ -132,18 +132,6 @@ header{
   float: right;
 }
 
-@media screen and (max-width: 500px) {
-header a {
-    float: none;
-    display: block;
-    text-align: left;
-  }
-  
-  .header-right {
-    float: none;
-  }
-}
-
 .header-contact{
 	float: left;
 }
@@ -161,7 +149,7 @@ ul li {float: right;}
 ul li a {
   display: block;
   color: white;
-  text-align: left;
+  text-align: center;
   padding: 14px 16px;
   text-decoration: none;
 }
@@ -227,7 +215,7 @@ nav a:hover{
     background-image: url('media/bg-gold.png');
 }
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 1000px) {
   ul li, nav, nav a {float: none;}
 }
 
