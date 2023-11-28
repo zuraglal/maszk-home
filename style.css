@@ -502,6 +502,11 @@ div.left{
     margin-left:10%;
 }
 
+div.right{
+    margin-right:10%;
+    justify-content: right;
+}
+
 div.center{
     width:100%;
     display: flex;
