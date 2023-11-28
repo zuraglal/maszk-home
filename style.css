@@ -90,23 +90,6 @@ img.logo {
 	float:left;
 }
 
-@media screen and (max-width: 500px) {
-  ul li {
-  float: none;
-   display: block;
-    text-align: left;
-}
-  nav a {
-    float: none;
-    display: block;
-    text-align: left;
-  }
-  
-  nav {
-    float: none;
-  }
-}
-
 header{
 	overflow: hidden;
 	padding: 20px 10px;
@@ -243,6 +226,15 @@ nav a:hover{
 	-webkit-background-clip: text;
     color: transparent;
     background-image: url('media/bg-gold.png');
+}
+
+@media screen and (max-width: 500px) {
+  ul li, nav {float: none;}
+  nav a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
 }
 
 .fa{
