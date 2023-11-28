@@ -91,6 +91,8 @@ img.logo {
 }
 
 @media screen and (max-width: 500px) {
+  ul li {float: none;}
+}
   nav a {
     float: none;
     display: block;
