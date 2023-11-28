@@ -271,7 +271,7 @@ footer td.center {
 footer td a {
     text-decoration: none;
     color: black;
-    font-style: italic;
+    font-style: bold italic;
     font-family: 'Nunito', serif;
     font-weight: 500;
     font-size: 16px; /*1.8vw;*/
@@ -282,7 +282,7 @@ footer td a {
 td a {
     text-decoration: none;
     color: black;
-    font-style: italic;
+    font-style: bold italic;
     font-family: 'Nunito', serif;
     font-weight: 500;
     font-size: 16px; /*1.8vw;*/
