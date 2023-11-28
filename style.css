@@ -84,11 +84,6 @@ body {
     margin:0;
 }
 
-img.logo {
-	width: 5vw;
-	float: left;
-}
-
 header{
 	overflow: hidden;
 	padding: 20px 10px;
