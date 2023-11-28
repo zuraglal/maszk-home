@@ -216,7 +216,7 @@ table.center {
 }
 
 table.right {
-   align: right;
+   float: right;
    margin: 20 auto;
    width: 50%;
 }
@@ -250,6 +250,16 @@ td {
     font-size: 16px; /*1.8vw;*/
     line-height: 150%;
     width: 50%;
+    vertical-align: top;
+}
+
+footer td {
+    text-decoration: none;
+    color: black;
+    font-family: 'Nunito', serif;
+    font-weight: 500;
+    font-size: 16px; /*1.8vw;*/
+    line-height: 150%;
     vertical-align: top;
 }
 
