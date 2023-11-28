@@ -232,6 +232,16 @@ th {
     line-height: 200%;
 }
 
+footer th img {
+    width: 120;
+    text-align: center;
+}
+
+footer td img {
+    width: 30;
+    text-align: center;
+}
+
 td {
     text-decoration: none;
     color: black;
@@ -440,11 +450,6 @@ div.menu a:hover{
 	-webkit-background-clip: text;
     color: transparent;
     background-image: url('media/bg-gold.png');
-}
-
-footer nav img{
-    width: 50%;
-    float: right;
 }
 
 div.social-media-footer{
