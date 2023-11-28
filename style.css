@@ -215,6 +215,12 @@ table.center {
    margin: 20 auto;
 }
 
+table.right {
+   align: right;
+   margin: 20 auto;
+   width: 50%;
+}
+
 th {
     text-decoration: none;
     text-align: center;
