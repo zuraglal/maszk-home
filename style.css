@@ -362,8 +362,9 @@ div.text{
     font-weight: 600;
     font-size: 16px;
     line-height: 150%;
+    padding: 10px 0 10px 0;
 
-div.text.a{
+div.text a{
     color: black;
     text-decoration: none;
     font-style: italic;
