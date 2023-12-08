@@ -208,7 +208,7 @@ th {
     line-height: 300%;
 }
 
-footer th img {
+header th img, footer th img {
     width: 120px;
     text-align: center;
 }
