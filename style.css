@@ -331,21 +331,21 @@ tr:nth-child(even){background-color: transparent}
 
 
 .fa{
-	padding: 1vw;
-	font-size: 3.4vw;
-	width: 3.4vw;
-	text-align: center;
-	background-clip: text;
-	-webkit-background-clip: text;
+    padding: 1vw;
+    font-size: 3.4vw;
+    width: 3.4vw;
+    text-align: center;
+    background-clip: text;
+    -webkit-background-clip: text;
     color: transparent;
-	background-image: url('media/gold-bg.png');
-	text-decoration: none;
-	border-radius: 50%;
-	float: right;
+    background-image: url('media/gold-bg.png');
+    text-decoration: none;
+    border-radius: 50%;
+    float: right;
 }
 
 .fa:hover {
-	color: #0f4b3b;
+    color: #0f4b3b;
 }
 
 footer{
@@ -355,177 +355,6 @@ footer{
     background-color: black;
     justify-content: center;
     align-items: center;
-}
-
-div.menu a:hover{
-    background-clip: text;
-	-webkit-background-clip: text;
-    color: transparent;
-    background-image: url('media/bg-gold.png');
-}
-
-div.social-media-footer{
-    width:100%;
-    display:flex;
-}
-
-div.menu{
-    width:40%;
-    display:flex;
-    flex-flow:column;
-    text-decoration: none;
-    text-align: center;
-    font-family: 'Oswald', sans-serif;
-    text-transform: uppercase;
-    font-weight: 400;
-    font-size: 20px;/*1.5vw;*/
-    line-height: 150%;
-    padding:2%;
-}
-
-div.copyright{
-    display: flex;
-    flex-flow: column;
-    text-decoration: none;
-    text-align: center;
-    font-family: 'Oswald', sans-serif;
-    text-transform: uppercase;
-    font-weight: 400;
-    font-size:1.5vw;
-    line-height: 150%;
-}
-
-div.menu a{
-    color: white;
-    text-decoration: none;
-}
-
-div.menu img{
-    width:80%;
-}
-
-
-
-div.left{
-    width:90%;
-    margin-left:10%;
-}
-
-div.center{
-    width:100%;
-    display: flex;
-    justify-content: center;
-    margin: 0 auto;
-}
-
-div.center iframe{
-    padding:1.5%;
-}
-/*
-font-family: 'Oswald', sans-serif;
-font-family: 'Lora', serif;
-font-family: 'Crimson Text', serif;
-font-family: 'Croissant One', cursive;
-*/
-@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=Croissant+One&display=swap');
-
-.header-contact{
-	float: left;
-}
-
-/*nav a2{
-    text-decoration: none;
-    padding: 2.6%;
-    text-align: center;
-    font-size:2.6vw;
-    background-clip: text;
-	-webkit-background-clip: text;
-    color: transparent;
-    background-image: url('media/bg-gold.png');
-    margin: 0;
-    font-family: 'Oswald', sans-serif;
-    text-transform: uppercase;
-}
-
-nav a:hover{
-    background-clip: text;
-	-webkit-background-clip: text;
-    color: transparent;
-    background-image: url('media/bg-gold.png');
-}*/
-
-.fa{
-	padding: 1vw;
-	font-size: 3.4vw;
-	width: 3.4vw;
-	text-align: center;
-	background-clip: text;
-	-webkit-background-clip: text;
-    color: transparent;
-	background-image: url('media/gold-bg.png');
-	text-decoration: none;
-	border-radius: 50%;
-	float: right;
-}
-
-.fa:hover {
-	color: #0f4b3b;
-}
-
-footer{
-    width:100%;
-    display:flex;
-    flex-flow: row;
-    background-color: black;
-    justify-content: center;
-    align-items: center;
-}
-
-div.menu a:hover{
-    background-clip: text;
-	-webkit-background-clip: text;
-    color: transparent;
-    background-image: url('media/bg-gold.png');
-}
-
-div.social-media-footer{
-    width:100%;
-    display:flex;
-}
-
-div.menu{
-    width:40%;
-    display:flex;
-    flex-flow:column;
-    text-decoration: none;
-    text-align: center;
-    font-family: 'Oswald', sans-serif;
-    text-transform: uppercase;
-    font-weight: 400;
-    font-size: 20px;/*1.5vw;*/
-    line-height: 150%;
-    padding:2%;
-}
-
-div.copyright{
-    display: flex;
-    flex-flow: column;
-    text-decoration: none;
-    text-align: center;
-    font-family: 'Oswald', sans-serif;
-    text-transform: uppercase;
-    font-weight: 400;
-    font-size:1.5vw;
-    line-height: 150%;
-}
-
-div.menu a{
-    color: white;
-    text-decoration: none;
-}
-
-div.menu img{
-    width:80%;
 }
 
 div.subtitle{
@@ -558,11 +387,136 @@ div.center{
     width:100%;
     display: flex;
     justify-content: center;
+    margin: 0 auto;
 }
 
-div.center iframe{
-    padding:1.5%;
+/*div.menu a:hover{
+    background-clip: text;
+	-webkit-background-clip: text;
+    color: transparent;
+    background-image: url('media/bg-gold.png');
 }
+
+div.social-media-footer{
+    width:100%;
+    display:flex;
+}
+
+div.menu{
+    width:40%;
+    display:flex;
+    flex-flow:column;
+    text-decoration: none;
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 150%;
+    padding:2%;
+}
+
+div.copyright{
+    display: flex;
+    flex-flow: column;
+    text-decoration: none;
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size:1.5vw;
+    line-height: 150%;
+}
+
+div.menu a{
+    color: white;
+    text-decoration: none;
+}
+
+div.menu img{
+    width:80%;
+}*/
+
+
+
+
+/*div.center iframe{
+    padding:1.5%;
+}*/
+/*
+
+/*nav a2{
+    text-decoration: none;
+    padding: 2.6%;
+    text-align: center;
+    font-size:2.6vw;
+    background-clip: text;
+	-webkit-background-clip: text;
+    color: transparent;
+    background-image: url('media/bg-gold.png');
+    margin: 0;
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+}
+
+nav a:hover{
+    background-clip: text;
+	-webkit-background-clip: text;
+    color: transparent;
+    background-image: url('media/bg-gold.png');
+}*/
+
+
+
+/*div.menu a:hover{
+    background-clip: text;
+	-webkit-background-clip: text;
+    color: transparent;
+    background-image: url('media/bg-gold.png');
+}
+
+div.social-media-footer{
+    width:100%;
+    display:flex;
+}
+
+div.menu{
+    width:40%;
+    display:flex;
+    flex-flow:column;
+    text-decoration: none;
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 150%;
+    padding:2%;
+}
+
+div.copyright{
+    display: flex;
+    flex-flow: column;
+    text-decoration: none;
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size:1.5vw;
+    line-height: 150%;
+}
+
+div.menu a{
+    color: white;
+    text-decoration: none;
+}
+
+div.menu img{
+    width:80%;
+}*/
+
+
+
 
 @media screen and (max-width: 1000px) {
   ul li, nav, nav img {float: none;}
