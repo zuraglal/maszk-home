@@ -353,15 +353,14 @@ div.center{
 
 div.text{
     width:100%;
-    display: flex;
-    justify-content: center;
+    text-align: center;
     margin: 0 auto;
     text-decoration: none;
     color: black;
     font-family: 'Nunito', serif;
     text-transform: uppercase;
-    font-weight: 800;
-    font-size: 18px;
+    font-weight: 600;
+    font-size: 16px;
 
 div.text a{
     color: black;
