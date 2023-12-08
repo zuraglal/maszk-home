@@ -184,6 +184,7 @@ table {
   border-spacing: 0;
   width: 100%;
   border: 0px solid #ddd;
+  margin: 0 0 0 10px;
 }
 
 table.center {
