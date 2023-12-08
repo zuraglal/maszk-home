@@ -280,7 +280,7 @@ footer td {
 }
 
 footer td.center {
-    text-align: center;
+    text-align: right;
 }
 
 footer td a {
@@ -323,7 +323,7 @@ footer table a {
     font-weight: 500;
     font-size: 16px; /*1.8vw;*/
     line-height: 100%;
-    width: 50%;
+    width: 100%;
     vertical-align: top;
 }
 
