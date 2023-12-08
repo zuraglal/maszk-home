@@ -213,7 +213,7 @@ header th img, footer th img {
     text-align: center;
 }
 
-footer td img {
+header td img, footer td img {
     width: 30px;
     text-align: center;
 }
