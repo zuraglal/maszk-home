@@ -101,15 +101,21 @@ ul {
   background-color: black;
 }
 
-
-footer ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  background-color: black;
-	width: 50%;
+ul li a {
+  display: block;
+  color: white;
+  text-decoration: none;
+  text-align: center;
+  padding: 14px 16px;
 }
+
+ul li a:hover {
+    background-clip: text;
+	-webkit-background-clip: text;
+    color: transparent;
+    background-image: url('media/bg-gold.png');
+}
+
 
 header ul li, body ul li {
     float: right;
@@ -119,6 +125,16 @@ header ul li, body ul li {
     text-transform: uppercase;
     font-weight: 400;
     font-size: 20px;
+}
+
+
+footer ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: black;
+	width: 50%;
 }
 
 footer ul li {
@@ -132,14 +148,6 @@ footer ul li {
     font-size: 20px;
 }
 
-ul li a {
-  display: block;
-  color: white;
-  text-decoration: none;
-  text-align: center;
-  padding: 14px 16px;
-}
-
 footer ul li a {
   display: block;
   color: white;
@@ -150,13 +158,6 @@ footer ul li a {
     text-transform: uppercase;
     font-weight: 400;
     font-size: 20px;
-}
-
-ul li a:hover {
-    background-clip: text;
-	-webkit-background-clip: text;
-    color: transparent;
-    background-image: url('media/bg-gold.png');
 }
 
 nav{
