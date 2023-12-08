@@ -84,7 +84,6 @@ h5 a{
 body {
     background-color: rgb(231, 189, 98);
     margin:0;
-    /*font-family: Arial, Helvetica, sans-serif;*/
 }
 
 header{
@@ -127,48 +126,13 @@ header ul li, body ul li {
     font-size: 20px;
 }
 
-
-footer ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  background-color: black;
-	width: 50%;
-}
-
-footer ul li {
-    display: inline;
-    float: right;
-    text-decoration: none;
-    text-align: center;
-    font-family: 'Oswald', sans-serif;
-    text-transform: uppercase;
-    font-weight: 400;
-    font-size: 20px;
-}
-
-footer ul li a {
-  display: block;
-  color: white;
-  text-decoration: none;
-  text-align: center;
-  padding: 14px 16px;
-	font-family: 'Oswald', sans-serif;
-    text-transform: uppercase;
-    font-weight: 400;
-    font-size: 20px;
-}
-
 nav{
   overflow: hidden;
   padding: 20px 10px;
   background-color: black;
   float: left;
-    /*display:flex;
+    /*display:flex;*/
     background-color: black;
-    margin-top:-10%;
-    padding-left: 21%;
     float: right;
     display:flex;
 
@@ -177,8 +141,8 @@ nav{
     font-family: 'Oswald', sans-serif;
     text-transform: uppercase;
     font-weight: 400;
-    font-size: 20px;/*1.5vw;
-    line-height: 20px;*/
+    font-size: 20px;/*1.5vw;*/
+    line-height: 20px;
 }
 
 header nav img {
