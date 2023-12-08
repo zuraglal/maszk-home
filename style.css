@@ -318,11 +318,11 @@ footer table a {
     text-align: center;
     text-decoration: none;
     color: white;
-    font-style: italic;
+    font-style: normal;
     font-family: 'Nunito', serif;
     font-weight: 500;
     font-size: 16px; /*1.8vw;*/
-    line-height: 150%;
+    line-height: 100%;
     width: 50%;
     vertical-align: top;
 }
