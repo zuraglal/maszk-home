@@ -361,9 +361,11 @@ div.text{
     text-transform: uppercase;
     font-weight: 600;
     font-size: 16px;
+    line-height: 150%;
 
 div.text a{
     color: black;
+    text-decoration: none;
     font-style: italic;
 }
 /*div.menu a:hover{
