@@ -6,7 +6,7 @@ font-family: 'Croissant One', cursive;
 */
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=Croissant+One&display=swap');
 
-* {box-sizing: border-box;}
+/** {box-sizing: border-box;}*/
 
 h1{
     text-decoration: none;
