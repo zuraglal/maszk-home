@@ -100,6 +100,18 @@ ul {
   background-color: black;
 }
 
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: black;
+  display: inline-block;
+  text-align: left;
+}
+
+
+
 ul li a {
   display: block;
   color: white;
