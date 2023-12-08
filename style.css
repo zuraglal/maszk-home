@@ -286,9 +286,9 @@ footer td.center {
 footer td a {
     text-decoration: none;
     color: black;
-    font-style: bold italic;
+    font-style: italic;
     font-family: 'Nunito', serif;
-    font-weight: 500;
+    font-weight: 600;
     font-size: 16px; /*1.8vw;*/
     line-height: 150%;
     vertical-align: top;
@@ -297,9 +297,9 @@ footer td a {
 td a {
     text-decoration: none;
     color: black;
-    font-style: bold italic;
+    font-style: italic;
     font-family: 'Nunito', serif;
-    font-weight: 500;
+    font-weight: 600;
     font-size: 16px; /*1.8vw;*/
     line-height: 150%;
     width: 50%;
