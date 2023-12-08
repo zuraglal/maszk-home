@@ -351,6 +351,22 @@ div.center{
     margin: 0 auto;
 }
 
+div.text{
+    width:100%;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    text-decoration: none;
+    color: black;
+    font-family: 'Nunito', serif;
+    text-transform: uppercase;
+    font-weight: 800;
+    font-size: 18px;
+
+div.text a{
+    color: black;
+    font-style: italic;
+}
 /*div.menu a:hover{
     background-clip: text;
 	-webkit-background-clip: text;
