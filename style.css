@@ -107,10 +107,8 @@ nav ul {
   overflow: hidden;
   background-color: black;
   display: inline-block;
-  text-align: left;
+  text-align: right;
 }
-
-
 
 ul li a {
   display: block;
